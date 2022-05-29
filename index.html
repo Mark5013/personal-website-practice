@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mark McEnnis</title>
+        <link href="css/stylesheet.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <link href="images/favicon.ico" rel="icon">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/39ea3817af.js" crossorigin="anonymous"></script> 
+    </head>
+    <body>
+        <header id="home" class="header main-grid">
+            <a href="#home" class="home-logo"><i class="fa-solid fa-house"></i></a>
+            <button aria-label="Open navigation" class="open-nav">&#9776;</button>
+            <nav class="nav">
+                <button aria-label="Close navigation" class="close-nav">&times;</button>
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a href="#projects" class="nav-list-link scroll">Projects</a></li>
+                    <li class="nav-list-item"><a href="#skills" class="nav-list-link scroll">Skills</a></li>
+                    <li class="nav-list-item"><a href="#socials" class="nav-list-link scroll">Socials</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main main-grid cat-grid">
+            <img class="self-img" src="images/selfie.JPG" alt="me">
+            <p class="self-info">Hi! My name is Mark McEnnis and im a computer science major enrolled at Umass Amherst. 
+                I'm interested in becoming a full-stack software developer and I really like cats!!!
+            </p>
+        </main>
+        <hr>
+        <section class="cats-section main-grid cat-grid">
+            <h2 class="cats-title"> MY CATS </h2>
+            <img class="mittens-pic mittens-section" src="images/mittens.jpg" alt="mittens laying on ground">
+            <p class="mittens-section mittens-info"> This is my cat Mittens! She's only a couple years old and is a girl.</p>
+            <img class="tio-pic tio-section" src="images/tio.jpg" alt="tio laying down">
+            <p class="tio-section tio-info">This is my other cat Tío, they are very old and they are actually a hermaphrodite!!</p>
+        </section>
+        <hr>
+        <section id="projects" class="projects main-grid">
+            <h2 class="projects-title"> Projects </h2>
+            <div class="discord-bot">
+                <h3>Discord weather bot</h3>
+                <a href="https://github.com/Mark5013/MoMoBot"><img class="bot-img" src="images/discordbot.png" alt="discord bot logo"></a>
+            </div>
+            <div class="clue-game">
+                <h3>Clue game</h3>
+                <a href="https://github.com/Mark5013/ClueGame"><img class="clue-img" src="images/clue.jpg" alt="clue game ad"></a>
+            </div>
+            <div class="pokedex">
+                <h3>Pokedex</h3>
+                <a href="https://github.com/Mark5013/Pokedex"><img class="poke-img" src="images/pokedex.png" alt="pokedex"></a>
+            </div>
+        </section>
+    </body>
+    <footer>
+        <div class="footer main-grid">
+            <h2 id="skills" class="skills-title"> Skills </h2>
+            <h3 class="lang-title">Languages</h3>
+            <ul class="lang-list">
+                <li class="lang-list-item">JavaScript</li>
+                <li class="lang-list-item">Java</li>
+                <li class="lang-list-item">C</li>
+                <li class="lang-list-item">HTML | CSS</li>
+                <li class="lang-list-item">Python</li>
+            </ul>
+            <h3 class="frameworks-title">Frameworks</h3>
+            <ul class="frameworks-list">
+                <li class="framework-list-item">Bootstrap</li>
+                <li class="framework-list-item">jQuery</li>
+                <li class="framework-list-item">Node.js</li>
+                <li class="framework-list-item">JUnit</li>
+            </ul>
+            <h3 class="dev-tools-title">Developer Tools</h3>
+            <ul class="dev-tools-list">
+                <li class="dev-tool-list-item">Git</li>
+                <li class="dev-tool-list-item">VScode</li>
+                <li class="dev-tool-list-item">Pycharm</li>
+            </ul>
+            <h2 class="socials-title">Socials</h2>
+            <div id="socials" class="socials">
+            <a class="social-links" href="https://www.linkedin.com/in/mark5013/"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="social-links" href="images/mark_mcennis_resume3.pdf" download="mark-mcennis-resume"><i class="fa-solid fa-file"></i></a>
+            <a class="social-links" href="https://github.com/Mark5013"><i class="fa-brands fa-github-square"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</html>
